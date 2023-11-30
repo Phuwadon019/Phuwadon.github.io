@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตัวอย่างที่ 1-1 โครงสร้างพื้นฐานของ CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    /* css แบบเขียนใน html */
+        h1 {
+            color:red; /* เปลี่ยนสี h1 */
+            font-size: 48pt; /* ขนาด h1 */
+        }
+        div.myid {
+            color:white;
+            background-color:black;
+            display: block;
+            font-size: 24px;
+        }
+        p.myp {
+            /*ใช้ class คือเฉพาะเจาะจง */
+            color: blue;
+            font-size: 20px;
+            background-color: white; 
+        }
+    </style>
+</head>
+<body> 
+    <h1>ตัวอย่าง 1-1 โครงสร้างพื้นฐานของ CSS</h1> 
+    <div class="myid"> 
+        <p class="myp">Lorem ipsum dolor <span style="color: red;">sit </span>amet consectetur adipisicing elit. Natus, beatae dolor consequuntur, ad sapiente dignissimos voluptatibus recusandae laudantium a nemo autem tempore atque hic facere totam architecto enim ipsum deleniti?</p>
+    </div>
+        <h2>การใช้งาน External style</h2>
+</body>
+</html>
